@@ -7,8 +7,6 @@ import befaster.solutions.Checkout
 
 
 import befaster.runner.CredentialsConfigFile.readFromConfigFile
-import befaster.runner.TypeConversion.asInt
-import befaster.solutions.Item
 import befaster.solutions.Scanner
 
 object StartKotlin {

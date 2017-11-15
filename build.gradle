@@ -34,7 +34,7 @@ dependencies {
 
 apply plugin: 'application'
 
-mainClassName = 'befaster.Start'
+mainClassName = 'befaster.StartKotlin'
 
 run {
     standardInput = System.in

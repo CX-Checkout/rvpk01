@@ -141,3 +141,4 @@ class `Long assert test` {
         }
     }
 }
+
