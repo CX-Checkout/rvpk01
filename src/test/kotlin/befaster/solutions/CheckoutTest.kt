@@ -36,7 +36,7 @@ class CheckoutTest {
 
     @Test
     fun `it should parse a valid list of items and return total`(){
-        expect that Checkout.priceFor("ABCDABC") isEqualTo A.price + B.price + C.price + D.price + A.price + B.price + C.price
+        expect that Checkout.priceFor("ABCDABC") isEqualTo 200
         expect that Checkout.priceFor("B") isEqualTo B.price
         expect that Checkout.priceFor("A") isEqualTo A.price
         expect that Checkout.priceFor("B") isEqualTo B.price
