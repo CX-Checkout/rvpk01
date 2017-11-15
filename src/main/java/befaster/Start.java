@@ -3,7 +3,6 @@ package befaster;
 import befaster.runner.ClientRunner;
 import befaster.runner.ConfigNotFoundException;
 import befaster.runner.RunnerAction;
-import befaster.solutions.Checkout;
 import befaster.solutions.FizzBuzz;
 import befaster.solutions.Hello;
 import befaster.solutions.Sum;
@@ -57,7 +56,6 @@ public class Start {
                 .withSolutionFor("sum", p -> Sum.sum(asInt(p[0]), asInt(p[1])))
                 .withSolutionFor("hello", p -> Hello.hello(p[0]))
                 .withSolutionFor("fizz_buzz", p -> FizzBuzz.fizzBuzz(asInt(p[0])))
-                .withSolutionFor("checkout", p -> Checkout.checkout(p[0]))
                 .start(args);
     }
 
